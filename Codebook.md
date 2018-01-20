@@ -1,9 +1,6 @@
----
-title: "Codebook for Getting and Cleaning Data Course Project"
-output: html_document
----
-##Tidy Data
-###Description:
+**Tidy Data**
+
+**Description:**
 Data set with the mean values of each mean or standard deviation variable for each activity and subject
 
 **Source:**
@@ -12,7 +9,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 **Description:**
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-###Variables:
+**Variables:**
 **Subject:**
 ID of the 30 volunteers who carried out the experiment
 Range: 1:30
@@ -160,8 +157,8 @@ Features are normalized and bounded within [-1,1].
 84. Angle(X,GravityMean)
 85. Angle(Y,GravityMean)
 86. Angle(Z,GravityMean)
-	
-###Steps to create the tidy data:
+
+**Steps to create the tidy data**
 
 **0. Get the data and understand it.**
 
